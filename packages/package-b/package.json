@@ -1,0 +1,25 @@
+{
+  "name": "@aevans04/test-node-monorepo-b",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "testing git monrepo of node libs to publish to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aevans04/test-node-monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aevans04/test-node-monorepo/issues"
+  },
+  "homepage": "https://github.com/aevans04/test-node-monorepo#readme",
+  "dependencies": {
+    "@aevans04/test-node-monorepo-a": "1.0.0"
+  }
+}

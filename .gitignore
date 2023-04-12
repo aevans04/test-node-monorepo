@@ -1,0 +1,4 @@
+#don't check in dependencies
+node_modules
+#don't check in npm publishing config
+.npmrc
