@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "testing git monrepo of node libs to publish to npm",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/aevans04/test-node-monorepo#readme",
   "dependencies": {
-    "@aevans04/test-node-monorepo-a": "1.0.0"
+    "@aevans04/test-node-monorepo-a": "1.0.1"
   }
 }
