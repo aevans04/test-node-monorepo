@@ -30,8 +30,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          # Publish using changesets. Could also run an npm script if there was other stuff like building that was needed to be done before publishing
-          publish: npx changesets publish
+          # Publish using changeset. Could also run an npm script if there was other stuff like building that was needed to be done before publishing
+          publish: yarn changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
