@@ -1,3 +1,4 @@
+#Note: need to add workflow scope to the PAT used to access repo
 #Got this workflow from here:
 # https://github.com/changesets/action
 name: Release
