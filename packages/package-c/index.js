@@ -1,3 +1,4 @@
+//Adding change to test multiple commits before release
 //let package_a = require('../package-a');
 let package_a = require('@aevans04/test-node-monorepo-a');
 module.exports = {
