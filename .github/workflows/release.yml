@@ -1,6 +1,7 @@
 #Note: need to add workflow scope to the PAT used to access repo
 #Got this workflow from here:
 # https://github.com/changesets/action
+#Note: needed to set permission to "Read and write permissions" via Repo->Settings->Actions->General
 name: Release
 
 on:
