@@ -1,5 +1,11 @@
 # @aevans04/test-node-monorepo-c
 
+## 1.1.1
+
+### Patch Changes
+
+- Testing what multiple commits before release would look like
+
 ## 1.1.0
 
 ### Minor Changes
