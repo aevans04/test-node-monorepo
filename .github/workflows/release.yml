@@ -2,6 +2,7 @@
 #Got this workflow from here:
 # https://github.com/changesets/action
 #Note: needed to set permission to "Read and write permissions" via Repo->Settings->Actions->General
+# Also check off "Allow GitHub Actions to create and approve pull requests"
 name: Release
 
 on:
