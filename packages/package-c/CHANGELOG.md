@@ -1,5 +1,11 @@
 # @aevans04/test-node-monorepo-c
 
+## 1.1.0
+
+### Minor Changes
+
+- Added a new feature to be able to bid adieu!
+
 ## 1.0.0
 
 ### Major Changes
