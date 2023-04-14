@@ -14,3 +14,4 @@ console.log('package b');
 console.log(package_b.greet());
 console.log('package c');
 console.log(package_c.greet());
+console.log(package_c.bid_adieu());
