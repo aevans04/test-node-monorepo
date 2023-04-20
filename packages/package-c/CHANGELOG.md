@@ -1,5 +1,11 @@
 # @aevans04/test-node-monorepo-c
 
+## 1.1.2
+
+### Patch Changes
+
+- bid adieu as see ya later instead of just see ya. more formal.
+
 ## 1.1.1
 
 ### Patch Changes
