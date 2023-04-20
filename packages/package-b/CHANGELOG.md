@@ -1,5 +1,11 @@
 # @aevans04/test-node-monorepo-b
 
+## 1.0.3
+
+### Patch Changes
+
+- Let package-b use dev-require from remote
+
 ## 1.0.2
 
 ### Patch Changes

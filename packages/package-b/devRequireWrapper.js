@@ -4,8 +4,8 @@
 
 //can probably use npm link for this for just comment and uncomment because can't use dev-require for dev-require!
 //if hard coding like this might have to update the path of local dev-require below
-let devRequireFactory = require('../dev-require');
-//    let devRequireFactory = require('@aevans04/dev-require');
+//let devRequireFactory = require('../dev-require');
+let devRequireFactory = require('@aevans04/dev-require');
 
 let devRequire = devRequireFactory();
 
