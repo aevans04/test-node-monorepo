@@ -1,5 +1,11 @@
 # @aevans04/test-node-monorepo-a
 
+## 1.0.2
+
+### Patch Changes
+
+- Changed hello from Yo to Yo Bro
+
 ## 1.0.1
 
 ### Patch Changes

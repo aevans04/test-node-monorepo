@@ -1,5 +1,12 @@
 # @aevans04/test-node-monorepo-b
 
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @aevans04/test-node-monorepo-a@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
