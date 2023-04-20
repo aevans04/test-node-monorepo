@@ -8,7 +8,13 @@
   "description": "testing git monorepo of node libs to publish to npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:dev-require": "cd packages/dev-require && npm install",
+    "install:package-a": "cd packages/package-a && npm install",
+    "install:package-b": "cd packages/package-b && npm install",
+    "install:package-c": "cd packages/package-c && npm install",
+    "install:all": "npm run install:dev-require && npm run install:package-a && npm run install:package-b && npm run install:package-c",
+    "postinstall": "npm run install:all"
   },
   "repository": {
     "type": "git",

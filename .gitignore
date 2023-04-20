@@ -2,3 +2,5 @@
 node_modules
 #don't check in npm publishing config
 .npmrc
+#don't check in devRequireConfig because only want devRequire to be used locally
+devRequireConfig.js
