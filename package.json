@@ -13,8 +13,7 @@
     "install:package-a": "cd packages/package-a && npm install",
     "install:package-b": "cd packages/package-b && npm install",
     "install:package-c": "cd packages/package-c && npm install",
-    "install:all": "npm run install:dev-require && npm run install:package-a && npm run install:package-b && npm run install:package-c",
-    "postinstall": "npm run install:all"
+    "install:all": "npm run install:dev-require && npm run install:package-a && npm run install:package-b && npm run install:package-c"
   },
   "repository": {
     "type": "git",
