@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "function to use for require so we can require local files instead of npm version and with npm link or other tool",
   "main": "cli.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
+    "@aevans04/dev-link": "./cli.js",
     "aevans04-dev-link": "./cli.js"
   },
   "bugs": {
