@@ -1,0 +1,28 @@
+{
+  "name": "@aevans04/dev-link",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1",
+  "description": "function to use for require so we can require local files instead of npm version and with npm link or other tool",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aevans04/test-node-monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "aevans04-dev-link": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/aevans04/test-node-monorepo/issues"
+  },
+  "homepage": "https://github.com/aevans04/test-node-monorepo#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
