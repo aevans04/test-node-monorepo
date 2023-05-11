@@ -13,6 +13,10 @@ let devRequireFactory = function (args={}) {
 
     }
 
+    self.import = function (packageName,options={}) {
+        return self.require(packageName,options={...options,isImport:true});
+    };
+
     self.require = function (packageName,options={}) {
         //if no config is set up via env var then just return null
         if (!self.config) return null;
@@ -40,7 +44,12 @@ let devRequireFactory = function (args={}) {
 		//use local version if config set up to do so
 		let packageInstance;
  		if (packageConfig && packageConfig.disabled!==true) {
-            packageInstance = require(packageConfig.path);
+ 		    if (options.isImport) {
+ 		        console.log(packageConfig.path);
+                packageInstance = import(packageConfig.path);
+            } else {
+                packageInstance = require(packageConfig.path);
+            }
 		} else {
  		    //return null if using remote package from npm and let caller handle it
             packageInstance = null;

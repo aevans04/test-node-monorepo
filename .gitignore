@@ -4,3 +4,5 @@ node_modules
 .npmrc
 #don't check in devRequireConfig because only want devRequire to be used locally
 devRequireConfig.js
+#don't check in .dev-link config file because only want to use them to link locally
+.dev-link

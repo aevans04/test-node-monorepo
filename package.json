@@ -9,6 +9,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "link": "npx @aevans04/dev-link link",
+    "link:all": "pnpm unlink * && pnpm run register:all && pnpm run link && pnpm -r run link",
+    "register:all": "pnpm -r run register",
     "install:dev-require": "cd packages/dev-require && npm install",
     "install:package-a": "cd packages/package-a && npm install",
     "install:package-b": "cd packages/package-b && npm install",
@@ -31,6 +34,7 @@
   "dependencies": {
     "@aevans04/test-node-monorepo-a": "^1.0.0",
     "@aevans04/test-node-monorepo-b": "^1.0.0",
-    "@aevans04/test-node-monorepo-c": "^1.0.0"
+    "@aevans04/dev-link": "^0.0.2",
+    "@aevans04/test-node-monorepo-c": "^1.1.0"
   }
 }
