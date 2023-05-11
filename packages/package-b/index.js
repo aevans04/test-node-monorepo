@@ -4,5 +4,5 @@ const devRequireWrapper = require('./devRequireWrapper.js');
 let package_a = devRequireWrapper('@aevans04/test-node-monorepo-a');
 
 module.exports = {
-	greet: (name='aaron')=> `${package_a.hello()} ${name} from package b`
+	greet: (name='aaron')=> `${package_a.hello()} ${name} from package b new`
 };

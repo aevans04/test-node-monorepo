@@ -15,3 +15,14 @@ console.log(package_b.greet());
 console.log('package c');
 console.log(package_c.greet());
 console.log(package_c.bid_adieu());
+
+(async function() {
+    try {
+        let devLink = require('@aevans04/dev-link');
+        console.log(devLink);
+        await devLink.run({cmd:"link"});
+    } catch (ex) {
+        console.error(ex);
+    }
+
+})();

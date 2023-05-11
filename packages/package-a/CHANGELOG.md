@@ -1,5 +1,11 @@
 # @aevans04/test-node-monorepo-a
 
+## 1.0.3
+
+### Patch Changes
+
+- Created dev-link cli tool for locally linking packages
+
 ## 1.0.2
 
 ### Patch Changes

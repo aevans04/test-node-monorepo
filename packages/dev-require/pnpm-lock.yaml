@@ -1,0 +1,12 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  merge:
+    specifier: ^2.1.1
+    version: 2.1.1
+
+packages:
+
+  /merge@2.1.1:
+    resolution: {integrity: sha512-jz+Cfrg9GWOZbQAnDQ4hlVnQky+341Yk5ru8bZSe6sIDTCIg8n9i/u7hSQGSVOF3C7lH6mGtqjkiT9G4wFLL0w==}
+    dev: false

@@ -1,0 +1,12 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  '@aevans04/test-node-monorepo-a':
+    specifier: ^1.0.0
+    version: 1.0.0
+
+packages:
+
+  /@aevans04/test-node-monorepo-a@1.0.0:
+    resolution: {integrity: sha512-XaENmU9eEOfN0KfO1HpC0dHvNycTbuh/cgXhQQbaFqJIWsnNZfTZiXO6GxV9euwANN6VP6mxBBQrggmygF0h1Q==}
+    dev: false

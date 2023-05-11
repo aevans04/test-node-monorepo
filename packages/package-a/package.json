@@ -3,11 +3,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "testing git monrepo of node libs to publish to npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "link": "npx @aevans04/dev-link link",
+    "register": "npx @aevans04/dev-link register"
   },
   "repository": {
     "type": "git",
