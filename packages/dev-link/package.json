@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "function to use for require so we can require local files instead of npm version and with npm link or other tool",
   "main": "index.js",
   "scripts": {

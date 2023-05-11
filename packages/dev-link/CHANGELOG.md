@@ -1,5 +1,11 @@
 # @aevans04/dev-link
 
+## 0.0.3
+
+### Patch Changes
+
+- Created dev-link cli tool for locally linking packages
+
 ## 0.0.2
 
 ### Patch Changes
