@@ -25,6 +25,9 @@ jobs:
         with:
           node-version: 16.x
 
+      - name: Install pnpm
+        run: npm i pnpm@latest -g
+
       - name: Install Dependencies
 #        run: yarn
 # try with pnpm instead of yarn
