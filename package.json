@@ -34,7 +34,7 @@
   "dependencies": {
     "@aevans04/test-node-monorepo-a": "^1.0.0",
     "@aevans04/test-node-monorepo-b": "^1.0.0",
-    "@aevans04/dev-link": "^0.0.2",
+    "@aevans04/dev-link": "^0.0.3",
     "@aevans04/test-node-monorepo-c": "^1.1.0"
   }
 }
